@@ -1,0 +1,1 @@
+query = "SELECT mhs_nama FROM tb_mahasiswa a JOIN tb_matakuliah b ON a.mk_id=b.mk_id JOIN tb_mahasiswa_nilai c ON b.mk_id=c.mk_id WHERE MAX(c.nilai) AND b.mk_kode='MK303'";
